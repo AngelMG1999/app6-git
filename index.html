@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>segunda aplicacion</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/> 
+<!--grupo JavaScript-->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/lagocontaminado.jpg','imagenes/puebla2.jpg')">
+
+<div data-role="page" id="principal" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+<h1>BATALLA DE PUEBLA</h1>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-list ui-group-theme-b">
+<center>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1101770x470.jpg" alt="Batalla" title="Batalla" id="wows1_0"/></li>
+		<li><img src="data1/images/406432.jpg" alt="Batalla" title="Batalla" id="wows1_1"/></li>
+		<li><img src="data1/images/casafea.jpg" alt="hBatalla" title="Batalla" id="wows1_2"/></li>
+		<li><img src="data1/images/images.jpg" alt="Batalla" title="Batalla" id="wows1_3"/></li>
+		<li><img src="data1/images/img_0009.jpg" alt="Batalla" title="Batalla" id="wows1_4"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/incineracin.jpg" alt="Batalla" title="Batalla" id="wows1_5"/></a></li>
+		<li><img src="data1/images/viviendas4.jpg" alt="Batalla" title="Batalla" id="wows1_6"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1101-770x470"><span><img src="data1/tooltips/1101770x470.jpg" alt="1101-770x470"/>1</span></a>
+		<a href="#" title="406432"><span><img src="data1/tooltips/406432.jpg" alt="406432"/>2</span></a>
+		<a href="#" title="casafea"><span><img src="data1/tooltips/casafea.jpg" alt="casafea"/>3</span></a>
+		<a href="#" title="images"><span><img src="data1/tooltips/images.jpg" alt="images"/>4</span></a>
+		<a href="#" title="IMG_0009"><span><img src="data1/tooltips/img_0009.jpg" alt="IMG_0009"/>5</span></a>
+		<a href="#" title="incineración"><span><img src="data1/tooltips/incineracin.jpg" alt="incineración"/>6</span></a>
+		<a href="#" title="viviendas4"><span><img src="data1/tooltips/viviendas4.jpg" alt="viviendas4"/>7</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+</center>
+<li class="ui-first-child ui-las ">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Batalla 4 de mayo</h2>
+<p>¿Porque se dio esa batalla?</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>Batalla 5 de mayo</h2>
+<p>¿Porque se dio esa batalla?</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Héroes de la batalla</h2>
+<p>Héroes resaltantes de la batalla</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Monumentos de la batalla</h2>
+<p>Monumentos para conmemorar a nuestros héroes</p>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r ">
+<h2>Consecuencias</h2>
+<p>Todo lo que dejo la batalla</p>
+</a>
+</li>
+</ul>
+</div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+<div>
+<img src="imagenes/mdpi.png" width="80" height="80">
+</div>
+<div>
+<h4>Aplicacion seis</h4>
+<h4>Angel Miranda Genis</h4>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Batalla de atlixco</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.</h2>
+
+
+<h2>Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla.</h2>
+
+
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/Atlixco-2.jpg',1)"><img src="imagenes/atlixco1.jpg" width="429" height="288" id="Image18"></a></p>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="https://es.wikipedia.org/wiki/Batalla_de_Atlixco" data-role="button">
+ <h2>MAYOR INFORMACION</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion seis, AJMG</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Batalla del 5 de mayo</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, aunque sí que sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días) y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano. Finalmente, ante la incapacidad de consolidar un imperio y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir, los franceses se retiraron incondicionalmente del país en el año 1867.</h2>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/puebla2.jpg',1)"><img src="imagenes/puebla1.jpg" width="561" height="375" id="Image25"></a></p>
+
+</div>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla" data-role="button">
+ <h2>MAYOR INFORMACION</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion seis, AJMG</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Héroes</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Ignacio Zaragoza Seguin (24 de marzo de 1829 - 8 de septiembre de 1862) fue un militar mexicano reconocido como el héroe de la Batalla de Puebla, que tuvo lugar el 5 de mayo de 1862, cuando el ejército mexicano derrotó al ejército francés de élite al mando de Charles Ferdinand Latrille (Conde de Lorencez), considerado en su momento el mejor del mundo.</h2>
+<h2>Ignacio Zaragoza nació en el poblado de La Bahía del Espíritu Santo, en el estado de Coahuila y Texas, hoy Goliad. Fue el segundo hijo de Miguel Zaragoza Valdés, de Veracruz, y María de Jesús Seguin Martínez, de San Antonio de Béxar, esta última pariente de Juan José Erasmo Seguin. Cuando los rebeldes texanos, apoyados por los Estados Unidos de América, ganaron la Guerra de independencia de Texas, Miguel Zaragoza, que era soldado de infantería, se mudó con su familia desde la ciudad Presidio de La Bahía de Espíritu Santo (hoy Goliad, Texas), donde había nacido su hijo Ignacio, a la ciudad de Matamoros en 1834, y posteriormente, en 1844, a la ciudad de Monterrey, donde Ignacio entró al seminario, estudios que abandonó en 1846, convencido de que no tenía vocación sacerdotal.</h2>
+<BR> 
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Ignacio Zaragoza</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/nachito zaragoza.jpg" width="57%" height="62%"></div>
+</div>
+</div>
+<BR> 
+<h2>José de la Cruz Porfirio Díaz Mori1 (Oaxaca de Juárez, Oaxaca, 15 de septiembre de 1830 - París, Francia, 2 de julio de 1915) fue un militar mexicano,2 que ejerció el cargo de presidente de México en siete ocasiones; la primera, del 24 de noviembre de 1876 al 6 de diciembre de 1876 (después del triunfo de la Revolución de Tuxtepec, desempeñando el cargo de forma interina); y la segunda vez, del 17 de febrero de 1877 al 5 de mayo de 1877. Nuevamente, ejerció el cargo en forma interina del 5 de mayo de 1877 al 30 de noviembre de 1880 (después de haber sido elegido presidente). Posteriormente, ejercería la presidencia del país de manera ininterrumpida entre 1884 y 1911. Fue un Mandatario que se mantuvo en la presidencia durante 35 años algo que un presidente de México nunca había hecho. Antes de asumir la presidencia fue un militar destacado que brilló por su participación en la Segunda Intervención Francesa en México. Combatió en la Batalla de Puebla, el Sitio de Puebla, la Batalla de Miahuatlán y en la Batalla de la Carbonera. Resaltaron sus acciones militares en el estado de Oaxaca, en donde organizó guerrillas contra los franceses. Porfirio Díaz, el 2 de abril de 1867, tomó Puebla, y el 15 de junio, recuperó para las tropas republicanas, la Ciudad de México. Tomó armas contra el gobierno federal en dos ocasiones: la primera contra Benito Juárez con el Plan de la Noria, y, posteriormente, contra Sebastián Lerdo de Tejada, elaborando el Plan de Tuxtepec. Tras el triunfo del segundo plan, Díaz asumió la presidencia. Entre sus logros más importantes se encuentra la introducción del Ferrocarril a México ya que él siempre tuvo un pensamiento futurista así que empezó a introducir la "Tecnología de ese tiempo".</h2>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Porfirio Diaz</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/porfi.jpg" width="57%" height="62%"></div>
+</div>
+</div>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion seis, AJMG</h4>
+</div>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TODO LO QUE DEJO LA BATALLA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>Mientras se libraba la batalla, en el Palacio Nacional y en la Ciudad de México en general se vivía un ambiente de tensa espera. Lo último que se sabía de Puebla era el telegrama enviado por Zaragoza hacia las 12:30 del día, en el que avisaba que el fuego de artillería de ambos lados había iniciado. Luego, silencio. Ante la incertidumbre, el gobierno había hecho salir precipitadamente al general Florencio Antillón al mando de los Batallones de Guanajuato, quedando como guardianes de la capital sólo 2,000 hombres del Regimiento de Coraceros Capitalinos y algunos centenares de milicianos pobremente armados. Si las tropas guanajuatenses se perdían, la capital quedaría desprotegida.</h2>
+
+<H2>A las 4:15 de la tarde finalmente se recibieron noticias:</H2>
+
+<H2>... Sobre el campo a las dos y media.— Dos horas y media nos hemos batido. El enemigo ha arrojado multitud de granadas.— Sus columnas sobre el cerro de Loreto y Guadalupe han sido rechazadas y seguramente atacó con cuatro mil hombres. Todo su impulso fue sobre el cerro.— En este momento se retiran las columnas y nuestras fuerzas avanzan sobre ellas. Comienza un fuerte aguacero.— I. Zaragoza</H2>
+<H2>Zaragoza envió más tarde otro telegrama en el que dijo que los franceses habían iniciado la retirada hacia Amozoc, pero sin mencionar el resultado final de la batalla. Finalmente, a las 5:49 de la tarde se recibió otro parte, dirigido al ministro de Guerra, que causó júbilo (y un gran alivio) en Palacio Nacional:</H2>
+
+<H2>... Las armas del Supremo Gobierno se han cubierto de gloria: el enemigo ha hecho esfuerzos supremos por apoderarse del Cerro de Guadalupe, que atacó por el oriente de izquierda y derecha durante tres horas: fue rechazado tres veces en completa dispersión y en estos momentos está formado en batalla, fuerte de más de 4,000 hombres, frente al cerro de Guadalupe, fuera de tiro. No lo bato, como desearía, porque el Gobierno sabe (que) no tengo para ello fuerza bastante. Calculo la pérdida del enemigo, que llegó hasta los fosos de Guadalupe en su ataque, en 600 o 700 entre muertos y heridos; 400 habremos tenido nosotros. Sírvase vd. dar cuenta de este parte al C. Presidente.— I. Zaragoza</H2>
+<H2>Dos horas después de haber sido remitido el parte anterior a la Secretaría de Guerra, el presidente de la República recibia el siguiente:</H2>
+
+<H2>... Señor Presidente.-Estoy muy contento con el comportamiento de mis generales y soldados. Todos se han portado bien.—Los franceses han llevado una lección muy severa; pero en obsequio de la verdad diré: que se han batido como bravos, muriendo una gran parte de ellos en los fosos de las trincheras de Guadalupe. Sea para bien, Sr. Presidente. Deseo que nuestra querida Patria, hoy tan desgraciada, sea feliz y respetada de todas las Naciones..— I. Zaragoza</H2>
+
+<H2>El saldo final de la batalla fue de 476 muertos y 345 heridos del lado francés, así como 83 muertos, cerca de 131 heridos y 12 desaparecidos para el Ejército de Oriente. A las 7 de la noche del día 6 de mayo arribaron a Puebla el general Antillón y sus tropas; Zaragoza esperaba un nuevo ataque de Lorencez, pero éste, el día 8 de mayo, dispuso la retirada hasta San Agustín del Palmar, siendo "saludado" por la artillería republicana y la Banda de Guerra de los Carabineros, quienes tocaron "Escape".</h2>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="https://es.wikipedia.org/wiki/Batalla_de_Puebla" data-role="button">
+ <h2>MAYOR INFORMACION</h2>
+ </a>
+ </li>
+
+ <li class="ui-first-child ui-last-child">
+ <a href="https://www.youtube.com/watch?v=BWqyNLamhV4"  data-role="button">
+ 
+ <h3>REPRESENTACION DE LA BATALLA (VIDEO)</h3>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion seis, AJMG</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>Monumentos</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<h2>El monumento mas resaltante sin duda es el que se encuentra en los Fuertes de Loreto y Guadalupe.</h2>
+<div data-role="main" class="ui-content">
+  <div data-role="collapsible" data-content-theme="false">
+<h1>Fuertes</h1>
+<div>
+<br>
+</div>
+<div>
+<img src="imagenes/fuertes.jpg" width="50%" height="50%"></div>
+</div>
+</div>
+ <div data-role="main" class="ui-content" align="center">
+ <div style="width:40%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+ <li class="ui-first-child ui-last-child">
+ <a href="https://www.google.com.mx/maps/place/Monumento+a+Ignacio+Zaragoza/@19.0597936,-98.184302,17z/data=!4m8!1m2!2m1!1slos+fuertes+de+loreto+y+guadalupe!3m4!1s0x0:0x9574212b7a7becde!8m2!3d19.0604542!4d-98.1846441!6m1!1e1" data-role="button">
+ <h2>UBICACION</h2>
+ </a>
+ </li>
+ </ul>
+ </div>
+ </div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+<h4>Aplicacion seis, AJMG</h4>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</body>
+</html>
